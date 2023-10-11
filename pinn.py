@@ -2,7 +2,7 @@
 # PINN method for HRTF interpolation 
 #  
 # Given HRTF from limited number of directions       (330 training hrtf), 
-# we wish to interpolate the HRTF over all direction (1260 total hrtf )
+# we wish to interpolate the HRTF over a large direction (1260 total hrtf )
 # 
 # Fei Ma,   
 # feima1024@gmail.com
