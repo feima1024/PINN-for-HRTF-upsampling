@@ -192,7 +192,7 @@ for human in range(40,41):      ##  human denote the ID of subjects, iterative o
         wave_num1  = 1.0/(wave_num**2);         ## a factor used for normalizing the Laplacian 
         ###############################
         ### the node number                     ## calculate the number of  neurons in hidden layer according the frequency  
-        nodes = 4;
+        nodes = 0;
         if freq<3000:                           ##  f<3000, neuron = f/500 
             nodes = int(np.ceil(freq/500));
         elif freq>6000:
