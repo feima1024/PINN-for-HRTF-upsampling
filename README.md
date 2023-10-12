@@ -1,12 +1,21 @@
-# PINN-for-HRTF-upsampling
-
-This code is for 
 Spatial Upsampling of Head-Related Transfer Functions Using a Physics-Informed Neural Network
 
-0, Download the 40.mat and pinn.py into one folder; 
+Read pinn.py and see the result shown in  'interpolation.png' and 'interpolation.fig' 
+
+
+Or you can run the code and generate the result by yourself by following the following procedures: 
+
+0, Download all files into one folder; 
 
 1, start a python terminal;
 
-2, go to the folder;   
+2, go to the same folder;   
 
 3, run the code by exec(open('pinn.py').read()); 
+
+4, PINN.py read the 40.mat file, and generate the 40_L3.mat.  
+the trining time is around 7 hours on my Macbook Pro with M1 chip. 
+
+5, Start Matlab, and go to the same folder, run the 'result.m' file will generate the figures. 
+
+
