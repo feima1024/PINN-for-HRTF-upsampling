@@ -17,8 +17,8 @@ Or you can run the code and generate the result by yourself:
 
 3, run the code by exec(open('pinn.py').read()); 
 
-4, PINN.py read the 40.mat file, and generate the 40_L3.mat.  
-the training time was about 7 hours on my Macbook Pro with M1 chip. 
+4, pinn.py will read the 40.mat file and generate the 40_L3.mat.  
+The training time was about 7 hours on my Macbook Pro with M1 chip. 
 
 5, Start Matlab, and go to the same folder, run the 'result.m' file, then you will get the figures. 
 
