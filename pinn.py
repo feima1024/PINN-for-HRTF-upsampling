@@ -309,7 +309,7 @@ for human in range(40,41):      ##  human denote the ID of subjects, iterative o
         print('------------------------------------------') 
     ################################################################################################## 
     ### save the result into a file 
-    newfile    = str(human) + '_' + str(layers) + '_' + str(nodes) +'.mat' 
+    newfile    = str(human) + '_L' + str(layers) + '.mat' 
     sio.savemat(newfile,{'total_hrtf':total_hrtf,'total_est':total_est,'total_coor':total_coor,'train_coor':train_coor}); 
     #################################################################################################################### 
 
