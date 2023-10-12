@@ -283,12 +283,12 @@ for human in range(40,41):      ##  human denote the ID of subjects, iterative o
                 ## print  data loss,  pde loss, layer number, neuron number, for subject huamn at frequency ff
                 print(ff,'ID',human,'T',now,'L',layers,'N',nodes,'R',dd,loss_data_db,loss_pde_db) 
                 #######################################################################################################
-                ### if the current data loss is smaller, we store the data loss 
+                ### if the current data loss is smaller 
                 if loss_data_db < now_err:
                     #########################################################
-                    now_err   = loss_data_db;               ### store the data loss 
-                    pinn_pred = get_test(model,xyz_total);  ### predict the HRTF at [known + unknown] total HRTF coordiantes 
-                    pinn_pred = pinn_pred.numpy();          ### transfer the prediction into numpy format 
+                    now_err   = loss_data_db;                            ### store the data loss 
+                    pinn_pred = get_test(model,xyz_total);               ### predict the HRTF at [known + unknown] total HRTF coordinates 
+                    pinn_pred = pinn_pred.numpy();                       ### transfer the prediction into numpy format 
                     #########################################################
                     if dd==0:
                         for ii in range(total_mid):                      ### store the real left HRTF prediction into the total_est
@@ -304,7 +304,7 @@ for human in range(40,41):      ##  human denote the ID of subjects, iterative o
                             total_est[ff,1,ii] = pinn_pred[ii-total_mid][0]
                 #######################################################################################################
                 ### good enough, stop 
-                if now_err<-29.0:           ## if the current data loss is small enough, we stop traning 
+                if now_err<-29.0:                                        ### if the current data loss is small enough, we do not repeat the training 5 times, stop it.  
                     break; 
         print('------------------------------------------') 
     ################################################################################################## 
