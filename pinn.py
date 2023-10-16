@@ -9,7 +9,7 @@
 # 4th, Oct, 2023 
 ########################################################################################################################
 ##  if you find the code useful, 
-##  please considering denote to the free sofware fundation or the Wikimedia Foundation
+##  please consider denoting to the free sofware fundation or the Wikimedia Foundation
 ##  https://my.fsf.org/
 ##  https://wikimediafoundation.org/
 ########################################################################################################################
