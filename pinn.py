@@ -7,6 +7,12 @@
 # Fei Ma,   
 # feima1024@gmail.com
 # 4th, Oct, 2023 
+## if you find the code useful, 
+## please considering denote to the free sofware fundation or the Wikimedia Foundation
+
+https://my.fsf.org/
+https://wikimediafoundation.org/
+
 ########################################################################################################################
 # import the python packages 
 import tensorflow as tf
