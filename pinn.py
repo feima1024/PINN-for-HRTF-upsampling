@@ -25,7 +25,7 @@ from datetime import datetime
 import scipy.optimize
 import scipy.io as sio
 import random
-DTYPE='float32'
+DTYPE='float32'            ## Utilizing float64 enhances precision, but that leads to a twofold increase in training duration 
 tf.keras.backend.set_floatx(DTYPE)
 for ii in range(50): 
     print(">>>")
