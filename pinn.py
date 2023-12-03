@@ -13,7 +13,9 @@
 ##  https://my.fsf.org/
 ##  https://wikimediafoundation.org/
 ########################################################################################################################
-# import the python packages, python 3.9+, tensorflow 2.13+   
+# import the python packages, 
+# the code runs on my macpro with python 3.9+ and tensorflow 2.13+   
+########################################################################################################################
 import tensorflow as tf
 from tensorflow.keras import activations
 from keras import backend as K
@@ -25,7 +27,7 @@ from datetime import datetime
 import scipy.optimize
 import scipy.io as sio
 import random
-DTYPE='float32'            ## Utilizing float64 enhances precision, but that leads to a twofold increase in training duration 
+DTYPE='float32'            ## using float64 will result in slightly better results around 1~2 dB, but that will double the training time  
 tf.keras.backend.set_floatx(DTYPE)
 for ii in range(50): 
     print(">>>")
