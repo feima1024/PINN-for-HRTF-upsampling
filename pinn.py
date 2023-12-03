@@ -13,7 +13,7 @@
 ##  https://my.fsf.org/
 ##  https://wikimediafoundation.org/
 ########################################################################################################################
-# import the python packages 
+# import the python packages, python 3.9+, tensorflow 2.13+   
 import tensorflow as tf
 from tensorflow.keras import activations
 from keras import backend as K
