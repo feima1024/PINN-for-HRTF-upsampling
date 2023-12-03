@@ -1,8 +1,8 @@
 ########################################################################################################################
 # PINN method for HRTF interpolation 
 #  
-# Given HRTF from limited number of directions       (330 training hrtf), 
-# we wish to interpolate the HRTF over a large direction (1260 total hrtf )
+# Given HRTF from limited number of directions           (330  hrtf), 
+# we wish to interpolate the HRTF over a large direction (930  hrtf)
 # 
 # Fei Ma,   
 # feima1024@gmail.com
@@ -13,9 +13,12 @@
 ##  https://my.fsf.org/
 ##  https://wikimediafoundation.org/
 ########################################################################################################################
-# import the python packages, 
-# the code runs on my macpro with python 3.9+ and tensorflow 2.13+   
+# the code runs on my macpro with python 3.9, 3.10, tensorflow 2.12 and 2.13
+# the numpy version and scipy version should not be a problem if they are compitable with python and tensorflow
+# With just 3 hidden layers and <16 nodes in each hidden layer, the Network is small, and can be trained faster on 
+# powerful CPU rather than GPU. 
 ########################################################################################################################
+# import the python packages, 
 import tensorflow as tf
 from tensorflow.keras import activations
 from keras import backend as K
