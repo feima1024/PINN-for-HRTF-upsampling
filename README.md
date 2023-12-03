@@ -1,6 +1,9 @@
 This is the source code for paper 
 
 "Spatial Upsampling of Head-Related Transfer Functions Using a Physics-Informed Neural Network"
+which is also attached here as a PDF file. 
+
+
 
 Sec. V, the interpolation experiment 
 
