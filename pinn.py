@@ -15,8 +15,7 @@
 ########################################################################################################################
 # the code runs on my macpro with python 3.9, 3.10, tensorflow 2.12 and 2.13
 # the numpy version and scipy version should not be a problem if they are compitable with python and tensorflow
-# With just 3 hidden layers and <16 nodes in each hidden layer, the Network is small, and can be trained faster on 
-# powerful CPU rather than GPU. 
+# The Network is small, and may be trained faster on powerful CPU rather than GPU. 
 ########################################################################################################################
 # import the python packages, 
 import tensorflow as tf
