@@ -23,7 +23,7 @@ Or you can run the code and generate the result by yourself:
 4, pinn.py will read the 40.mat file and generate the 40_L3.mat.  
 
 
-Trained one cpu core of Macbook M1 pro, the runtime was about 7 hours.  
+Trained on one cpu core of Macbook M1 pro, the runtime was about 7 hours.  
 The runtime can be significantly reduced with more cpu cores.  
 
 
